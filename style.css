@@ -1,21 +1,78 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
   text-align: center;
-  margin-top: 100px;
-  background-color: #0e0e10;
-  color: white;
+  padding: 50px 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+  margin-bottom: 20px;
 }
 
 input {
-  padding: 10px;
-  width: 300px;
+  padding: 12px;
+  width: 90%;
   font-size: 16px;
   border-radius: 8px;
   border: none;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #4caf50;
+  color: white;
+}
+
+.card {
+  background-color: rgba(255,255,255,0.05);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.lesson-buttons {
+  margin-top: 15px;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.quizBtn {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.quizBtn:hover {
+  background-color: #187bcd;
 }
 
 #strengthText {
-  margin-top: 15px;
-  font-size: 18px;
+  margin-top: 10px;
   font-weight: bold;
+  font-size: 18px;
 }
